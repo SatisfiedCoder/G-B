@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>G B International</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: url('https://source.unsplash.com/1600x900/?import,logistics') no-repeat center center/cover;
+            height: 70vh;
+            color: #333;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border-bottom: 3px solid #333;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: #333;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 1.5em;
+            margin-bottom: 0;
+        }
+
+        section {
+            padding: 40px 0;
+            border-bottom: 1px solid #ddd;
+            background: #fff;
+        }
+
+        section h2 {
+            font-size: 2.5em;
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        section p {
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 1.2em;
+        }
+
+        .product-category {
+            margin-bottom: 30px;
+        }
+
+        .product-category h3 {
+            font-size: 1.8em;
+            color: #007BFF;
+            margin-bottom: 15px;
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .product-category ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        .product-category ul li {
+            display: inline-block;
+            margin: 0 10px;
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        .product-card {
+            background: #f8f9fa;
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .product-card:hover {
+            transform: translateY(-10px);
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1em;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5em;
+            }
+
+            header p {
+                font-size: 1.2em;
+            }
+
+            section h2 {
+                font-size: 2em;
+            }
+
+            .product-category h3 {
+                font-size: 1.5em;
+            }
+
+            .product-category ul li {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>G B International</h1>
+        <p>Your Trusted Import Partner</p>
+    </header>
+
+    <section id="about-us">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>
+                G B International provides top-notch import services for a variety of products, including furniture, lighting, art pieces, PVC sheets, fabric, and machinery. With over 20 years of experience, we source high-quality materials and offer them in India at the best prices.
+            </p>
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product-category">
+                <h3>Furniture and Art Effects</h3>
+                <div class="product-card">
+                    <ul>
+                        <li>Furnitures</li>
+                        <li>Art Effect</li>
+                        <li>Light Fixtures</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="product-category">
+                <h3>Textile and Garment Accessories</h3>
+                <div class="product-card">
+                    <ul>
+                        <li>Winter Wear Fabric</li>
+                        <li>Rain Wear Fabric</li>
+                        <li>Lining Fabric</li>
+                        <li>Seam Sealing Tape</li>
+                        <li>Reflective Fabric and Stickers</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="product-category">
+                <h3>PVC Films</h3>
+                <div class="product-card">
+                    <ul>
+                        <li>PVC Super Clear Transparent Film</li>
+                        <li>PVC Normal Clear Transparent Film</li>
+                        <li>PVC Lining Film for Rainwear</li>
+                        <li>PVC Printed Film for Rainwear</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="clients">
+        <div class="container">
+            <h2>Our Clients</h2>
+            <p>
+                We proudly supply to wholesalers, manufacturers, architects, and house owners across India.
+            </p>
+        </div>
+    </section>
+
+    <section id="sources">
+        <div class="container">
+            <h2>Our Sources</h2>
+            <p>
+                Our materials are sourced and imported from India, China, Turkey, Vietnam, Malaysia, Thailand, Africa, Italy, and Taiwan.
+            </p>
+        </div>
+    </section>
+
+    <section id="contact-info">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p><strong>Phone:</strong> +91 98184 56116</p>
+            <p><strong>Email:</strong> <a href="mailto:saurabh18b@gmail.com">saurabh18b@gmail.com</a></p>
+            <p><strong>Address:</strong> 1215/2, Gali No. 11, Green Market, Sadar Bazar, DELHI - 110006</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 G B International. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
